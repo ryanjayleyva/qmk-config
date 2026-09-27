@@ -10,7 +10,7 @@ Use `crkbd/rev1` with `converter: rp2040_ce`.
 
 ## Layers
 
-![Fifi Choc Layout](fifi-choc/keymap.svg)
+![Fifi Choc Layout](keymap.svg)
 
 Configure four layers with a 3x5_3 split layout. Map Colemak-DH on the base layer
 with mirrored homerow mod taps.
@@ -75,12 +75,12 @@ RPI RP2 volume. Repeat for the other side.
 
 ## Files
 
-| File                 | Contents                                                                                              |
-| -------------------- | ----------------------------------------------------------------------------------------------------- |
-| fifi-choc/keymap.c   | Keymap with four layers                                                                               |
-| fifi-choc/config.h   | Configure tap hold, mod tap, and split settings. Retain commented-out defines as dead code reference. |
-| fifi-choc/rules.mk   | Feature flags for the build                                                                           |
-| fifi-choc/keymap.svg | Keymap visualization                                                                                  |
+| File         | Contents                                                                                              |
+| ------------- | ----------------------------------------------------------------------------------------------------- |
+| keymap.c     | Keymap with four layers                                                                               |
+| config.h     | Configure tap hold, mod tap, and split settings. Retain commented-out defines as dead code reference. |
+| rules.mk     | Feature flags for the build                                                                           |
+| keymap.svg   | Keymap visualization                                                                                  |
 
 ## Acknowledgments
 
